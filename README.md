@@ -9,8 +9,16 @@ Este proyecto consiste en una página web de blog especializada en los cuatro ej
 ```
 blog-enea/
 ├── index.html                 # Página principal
-├── patrimonio-natural.html    # Página de categoría ejemplo
-├── contenido-categorias.md    # Contenido detallado para las categorías
+├── patrimonio-natural.html    # Página de categoría 
+│    └── patrimonio-natural-ejes.html    #pagina sub-categoría
+├── cambio-climatico.html    # Página de categoría 
+│    └── cambio-climatico-ejes.html    #pagina sub-categoría
+├── calidad-ambiental.html    # Página de categoría 
+│    └── calidad-ambiental-ejes.html    #pagina sub-categoría
+├── agua-oceano.html    # Página de categoría 
+│    └── agua-oceano-ejes.html    #pagina sub-categoría
+├── educacion-formal.html   # Página de categoría
+├── consejos-locales.html   # Página de categoría
 ├── README.md                  # Este archivo
 ├── assets/
 │   ├── css/
@@ -18,7 +26,8 @@ blog-enea/
 │   ├── js/
 │   │   └── script.js         # JavaScript para interactividad
 │   └── images/
-│       ├── hero-image.jpg    # Imagen principal (paisaje latinoamericano)
+│       ├── hero-image.jpg    # Imagen principal
+│        ├── Logo.jpg
 │       ├── patrimonio-natural.jpg
 │       ├── cambio-climatico.jpg
 │       ├── calidad-ambiental.jpg
@@ -29,24 +38,24 @@ blog-enea/
 ## Categorías Temáticas
 
 ### 1. Patrimonio Natural
-- **Temas**: Manejo y conservación, gestión forestal, biodiversidad
-- **Imagen**: Biodiversidad y conservación en América Latina
-- **Contenido**: Artículos sobre conservación de bosques tropicales, biodiversidad marina, especies endémicas
+- **Temas**: Cambio Climático, Calidad Ambiental, Agua y Océano
+- **Imagen**: Recuperación de espacios naturales degradados
+- **Contenido**: Introducción, Ejes temáticos 
 
 ### 2. Cambio Climático, Producción y Consumo Sostenible
-- **Temas**: Eficiencia energética, tecnologías limpias, energías renovables
-- **Imagen**: Tecnologías limpias y energías renovables
-- **Contenido**: Transición energética, economía circular, gestión de residuos
+- **Temas**: Patrimonio Natural, Calidad Ambiental, Agua y Océano
+- **Imagen**: Tecnologías limpias vs paisaje desértico
+- **Contenido**: Introducción, Ejes temáticos
 
 ### 3. Calidad Ambiental
-- **Temas**: Prevención y control de contaminación, recuperación de espacios degradados, manejo sostenible
-- **Imagen**: Recuperación de espacios naturales degradados
-- **Contenido**: Restauración de ecosistemas, control de contaminación atmosférica
+- **Temas**: Patrimonio Natural, Cambio Climático, Agua y Océano
+- **Imagen**: Paisaje natural con bosques, ríos y montañas
+- **Contenido**: Introducción, Ejes temáticos
 
 ### 4. Agua/Océano
-- **Temas**: Acceso al agua, crecimiento demográfico, contaminación, hábitos de consumo
-- **Imagen**: Acceso al agua y conservación oceánica
-- **Contenido**: Crisis del agua, conservación de ecosistemas marinos
+- **Temas**: Patrimonio Natural, Cambio Climático, Calidad Ambiental
+- **Imagen**: Ballena saltando en el océano al atardecer
+- **Contenido**: Introducción, Ejes temáticos
 
 ## Características Técnicas
 
@@ -116,14 +125,6 @@ blog-enea/
 - Estructura HTML semántica
 - Carga asíncrona de fuentes
 
-## Contenido Editorial
-
-El archivo `contenido-categorias.md` incluye:
-- Artículos detallados para cada categoría
-- Contenido basado en investigación sobre temas ambientales latinoamericanos
-- Estructura editorial profesional
-- Referencias y fuentes especializadas
-
 ## Mantenimiento y Actualizaciones
 
 ### Agregar Nuevos Artículos
@@ -145,11 +146,11 @@ Para soporte técnico o consultas sobre el proyecto:
 
 ## Licencia
 
-Este proyecto está diseñado específicamente para la Estrategia Nacional de Educación Ambiental (ENEA) y su uso está destinado a fines educativos y de promoción de la conciencia ambiental en América Latina.
+Este proyecto está diseñado específicamente para la Estrategia Nacional de Educación Ambiental (ENEA) y su uso está destinado a fines educativos y de promoción.
 
 ---
 
-**Desarrollado por**: Manus AI  
+  
 **Fecha**: Enero 2025  
 **Versión**: 1.0
 

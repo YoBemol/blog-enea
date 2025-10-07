@@ -47,12 +47,12 @@ Subir las siguientes imágenes a **Medios > Añadir nuevo**:
 Estructura del menú principal:
 ```
 - Inicio (enlace a página principal)
-- Categorías
+- Ejes
   - Patrimonio Natural
   - Cambio Climático
   - Calidad Ambiental
   - Agua/Océano
-- Sobre Nosotros
+- Sobre la ENEA
 - Contacto
 ```
 
@@ -209,56 +209,47 @@ Ir a **Apariencia > Personalizar > CSS Adicional**:
 
 1. **Patrimonio Natural**
    - Slug: patrimonio-natural
-   - Descripción: Artículos sobre manejo y conservación, gestión forestal y biodiversidad
+   - Descripción: Descripción Eje Estrategia Nacional de Educación Ambiental
 
 2. **Cambio Climático**
    - Slug: cambio-climatico
-   - Descripción: Eficiencia energética, tecnologías limpias, energías renovables
+   - Descripción: Descripción Eje Estrategia Nacional de Educación Ambiental
 
 3. **Calidad Ambiental**
    - Slug: calidad-ambiental
-   - Descripción: Prevención de contaminación, recuperación de espacios degradados
+   - Descripción: Descripción Eje Estrategia Nacional de Educación Ambiental
 
 4. **Agua/Océano**
    - Slug: agua-oceano
-   - Descripción: Acceso al agua, contaminación, hábitos de consumo
+   - Descripción: Descripción Eje Estrategia Nacional de Educación Ambiental
 
-### 5.2 Crear Posts de Ejemplo
-Usar el contenido de `contenido-categorias.md` para crear posts:
 
-**Ejemplo de Post:**
-- Título: "Conservación de la Biodiversidad en los Bosques Tropicales"
-- Categoría: Patrimonio Natural
-- Imagen destacada: patrimonio-natural.jpg
-- Contenido: Usar el texto del archivo de contenido
-- Excerpt: Primer párrafo como resumen
+## Paso 5: Optimización y SEO
 
-## Paso 6: Optimización y SEO
-
-### 6.1 Configuración de Yoast SEO
+### 5.1 Configuración de Yoast SEO
 - **Título del sitio**: "Blog ENEA - Estrategia Nacional de Educación Ambiental"
 - **Descripción**: "Blog especializado en los ejes temáticos de la ENEA: Patrimonio Natural, Cambio Climático, Calidad Ambiental y Agua/Océano"
 - **Palabras clave**: educación ambiental, ENEA, sostenibilidad, América Latina
 
-### 6.2 Optimización de Imágenes
+### 5.2 Optimización de Imágenes
 - Instalar plugin de optimización (Smush, ShortPixel)
 - Configurar lazy loading
 - Añadir alt text descriptivo a todas las imágenes
 
-### 6.3 Performance
+### 5.3 Performance
 - Instalar plugin de caché (WP Rocket, W3 Total Cache)
 - Minificar CSS y JavaScript
 - Optimizar base de datos
 
-## Paso 7: Configuración de Hosting
+## Paso 6: Configuración de Hosting
 
-### 7.1 Requisitos del Servidor
-- PHP 7.4 o superior
+### 6.1 Requisitos del Servidor
+- PHP 6.4 o superior
 - MySQL 5.6 o superior
 - Memoria: mínimo 256MB (recomendado 512MB)
 - Espacio: mínimo 1GB
 
-### 7.2 Configuración de .htaccess
+### 6.2 Configuración de .htaccess
 ```apache
 # Compresión GZIP
 <IfModule mod_deflate.c>
