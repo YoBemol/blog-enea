@@ -1,4 +1,4 @@
-# Contenido para las Categorías Temáticas del Blog ENEA
+# Artículos Destacados América Latina
 
 ## 1. Patrimonio Natural
 
@@ -142,6 +142,6 @@ La pesca sostenible requiere la implementación de medidas de manejo basadas en 
 
 ---
 
-*Autor: Manus AI*
+
 *Fecha: Enero 2025*
 
