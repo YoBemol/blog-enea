@@ -36,11 +36,23 @@ body {
 .header {
     background: var(--white);
     box-shadow: var(--shadow);
-    position: fixed;
+    margin: 0 auto;
     top: 0;
-    width: 100%;
+    width: 100%;     
     z-index: 1000;
     transition: var(--transition);
+}
+.header-banner {
+    max-width: 1000px; 
+    margin: 0 auto;    
+    overflow: hidden;
+    padding: 0 10px;
+}
+/* IMAGEN SUPERIOR */
+.header-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .nav-container {
@@ -172,6 +184,23 @@ body {
     object-fit: cover;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-hover);
+}
+.hero-image a {
+    display: block;
+    position: relative;
+}
+.download-label {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 8px 15px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    pointer-events: none; 
+    text-align: center;
 }
 
 /* Introducción */
@@ -503,6 +532,19 @@ body {
     padding-top: 2rem;
     border-top: 1px solid #444;
     color: #bbb;
+}
+
+.footer-banner {
+    width: 100%;        
+    margin-top: 2rem;   
+    overflow: hidden;
+    padding: 0;         
+}
+
+.footer-banner img {
+    width: 100%;        
+    height: auto;       
+    display: block;
 }
 
 /* Responsive Design */
