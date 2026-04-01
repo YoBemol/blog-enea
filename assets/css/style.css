@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -1017,4 +1017,13 @@ html {
 
 .no-line {
     text-decoration: none;
+}
+
+.counterapi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-weight: 600;
+    color: var(--accent-color);
 }

@@ -192,13 +192,3 @@ document.addEventListener('DOMContentLoaded', function() {
         this.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
     });
 });
-
-
-fetch('https://api.countapi.xyz/hit/blog-enea/visitas')
-  .then(res => res.json())
-  .then(res => {
-    document.getElementById('visits').innerText = res.value;
-  })
-  .catch(() => {
-    document.getElementById('visits').innerText = '---';
-  });
