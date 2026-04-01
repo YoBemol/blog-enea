@@ -1018,12 +1018,3 @@ html {
 .no-line {
     text-decoration: none;
 }
-
-.counterapi {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-    font-weight: 600;
-    color: var(--accent-color);
-}

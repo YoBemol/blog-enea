@@ -151,6 +151,6 @@ Este proyecto está diseñado específicamente para la Estrategia Nacional de Ed
 ---
 
   
-**Fecha**: Enero 2025  
+**Fecha**: Enero 2026  
 **Versión**: 1.0
 
