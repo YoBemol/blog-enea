@@ -193,15 +193,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-/*menú se vuelva fijo SOLO cuando llega arriba
-const nav = document.querySelector(".nav");
-const navOffset = nav.offsetTop;
 
-window.addEventListener("scroll", () => {
-    if (window.scrollY >= navOffset) {
-        nav.classList.add("sticky");
-    } else {
-        nav.classList.remove("sticky");
-    }
-});
-*/
+fetch('https://api.countapi.xyz/hit/blog-enea/visitas')
+  .then(res => res.json())
+  .then(res => {
+    document.getElementById('visits').innerText = res.value;
+  })
+  .catch(() => {
+    document.getElementById('visits').innerText = '---';
+  });
