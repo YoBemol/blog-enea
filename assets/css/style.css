@@ -36,23 +36,11 @@ body {
 .header {
     background: var(--white);
     box-shadow: var(--shadow);
-    margin: 0 auto;
+    position: fixed;
     top: 0;
-    width: 100%;     
+    width: 100%;
     z-index: 1000;
     transition: var(--transition);
-}
-.header-banner {
-    max-width: 1000px; 
-    margin: 0 auto;    
-    overflow: hidden;
-    padding: 0 10px;
-}
-/* IMAGEN SUPERIOR */
-.header-banner img {
-    width: 100%;
-    height: auto;
-    display: block;
 }
 
 .nav-container {
@@ -934,6 +922,11 @@ html {
     color: var(--text-light);
     line-height: 1.6;
     margin: 0;
+}
+
+.topic-link{
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Responsive para páginas de categorías */
